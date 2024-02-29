@@ -1,0 +1,1 @@
+export const FLUTTER_GOOGLE_API_KEY = "";
