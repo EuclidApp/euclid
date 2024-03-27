@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:euclid_app/mainMap.dart';
 
-void main() {
-  runApp(const EuclidApp());
-}
+void main() => runApp(MyApp());
 
-class EuclidApp extends StatelessWidget {
-  const EuclidApp({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Euclid App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+      title: 'Your app name',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('we could do this all night!!!!!! chuchuchuhcuhcuhcuhcuhc'),
+        ),
+        body: Center(
+          child: Text('hi! its me again im back (hey) lets talk ASAP'),
+        ),
       ),
-      home: MapScreen(),
     );
   }
 }
