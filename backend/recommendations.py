@@ -4,8 +4,8 @@ import requests
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
-''' My API key, we might need to cop premium because free limit is kinda bad'''
-api_key = 'qHv4RympgocDnMRuMGyJqOBJxq5kd-9HfG1a-4Gm_EhyjPQ5ud22-FN0w-t4pMgWJ0dlmtxXHOSb_Bw61kQU14f4l07vYSyWWJQLD0M3qkkRjEqWxNi67Ntq3CgGZnYx'
+'''we might need to cop premium because free limit is kinda bad'''
+api_key = 'API_KEY'
 
 '''
 Rec engine:
